@@ -387,6 +387,9 @@ bottom: 0vh;
     text-align: center;
     
 }
+.songlist{
+    height: 40vh;
+}
 .songlist ul li{
     width: 80vw;
     font-size: 10px;
@@ -418,10 +421,15 @@ bottom: 0vh;
         bottom: 6vh;
     }
     
-    .left{
+    .left{ 
+        height: 99vh;
         width: 96vw;
     }
+    .footer{
+        bottom: 15vh;
+    }
     .footer a{
+        
         font-size: 9px;
     }
     .volume{
