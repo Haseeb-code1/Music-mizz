@@ -6,6 +6,7 @@
     font-weight: 700;
 }
 body{
+    overflow-y: hidden;
     overflow-x: hidden;
     background-color: rgb(246, 235, 235);
 color: rgba(246, 245, 245, 0.452);
@@ -67,7 +68,7 @@ width: 100%;
     color: rgb(4, 209, 79);
     gap: 12px;
     position: absolute;
-    bottom: 4vh;
+    bottom: 7vh;
     padding: 9px 10px;
     font-weight: bolder;
     
@@ -362,6 +363,7 @@ bottom: 0vh;
 }
 .loginbtn{
     font-size: 9px;
+    
     margin: 0;
     margin-top: 1vh;
 
@@ -372,6 +374,7 @@ bottom: 0vh;
 }
 .loginbtn:hover{
     font-size: 11px;
+    
     
 }
 .songbtn{
@@ -387,9 +390,6 @@ bottom: 0vh;
     left: 34%;
     text-align: center;
     
-}
-.songlist{
-    height: 40vh;
 }
 .songlist ul li{
     width: 80vw;
@@ -422,15 +422,10 @@ bottom: 0vh;
         bottom: 6vh;
     }
     
-    .left{ 
-        height: 99vh;
+    .left{
         width: 96vw;
     }
-    .footer{
-        bottom: 15vh;
-    }
     .footer a{
-        
         font-size: 9px;
     }
     .volume{
@@ -447,3 +442,8 @@ bottom: 0vh;
 
 }
 
+@media( max-width: 1100px){
+    .footer{
+        bottom:9vh;
+    }
+}
